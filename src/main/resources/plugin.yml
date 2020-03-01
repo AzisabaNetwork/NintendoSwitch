@@ -1,0 +1,19 @@
+name: ${project.name}
+main: net.azisaba.main.nintendoswitch.NintendoSwitch
+version: ${project.version}
+author: siloneco
+description: ${project.description}
+website: ${project.url}
+api-version: 1.15
+commands:
+  switch:
+    permission: nintendoswitch.command.switch
+    permission-message: §cYou do NOT have permission to perform this command.
+  switchadmin:
+    permission: nintendoswitch.command.switchadmin
+    permission-message: §cYou do NOT have permission to perform this command.
+permissions:
+  nintendoswitch.command.switch:
+    default: op
+  nintendoswitch.switch.fromother:
+    default: op
