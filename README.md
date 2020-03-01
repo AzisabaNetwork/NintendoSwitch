@@ -1,0 +1,2 @@
+# NintendoSwitch
+メインサーバーで運営権限と鯖民権限を切り替えられるようにするPlugin
